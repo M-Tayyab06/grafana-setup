@@ -29,3 +29,28 @@ sudo apt-get update
 
 # Install Grafana
 sudo apt-get install grafana -y
+
+
+sudo systemctl enable grafana-server
+sudo systemctl start grafana-server
+
+
+🌐 Access Grafana
+
+Open: http://localhost:3000
+
+Default credentials:
+
+User: admin
+
+Password: admin (you will be asked to change it)
+
+
+📌 Notes
+
+Tested on Ubuntu 22.04 LTS.
+
+Uses Grafana OSS (not Enterprise).
+
+For official docs: Grafana Documentation  #The link is provided in the about section
+
